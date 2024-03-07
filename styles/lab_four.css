@@ -43,10 +43,6 @@ p {
     border-radius: 20px;
     text-align: center;
     cursor: pointer;
-    position: absolute;
-    top: 180px;
-    left: -120px;
-    font-size: 30px;
 }
 
 .hero-text button:hover {
