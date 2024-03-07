@@ -16,20 +16,17 @@
   height: 100vh;
 }
 
-.content-container {
-  background-color: #dbd56e;
-  height: 600px;
-}
 
 .accordion-container {
   background-color: #fc7753;
   color: #fff;
-  height: 600px;
+  height: auto;
 }
 
 .footer-container {
-  background-color: #f2efea;
   width: 100%;
-  height: 300px;
+  height: auto;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
