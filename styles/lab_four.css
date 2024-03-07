@@ -57,14 +57,25 @@ p {
 }
 
 .content {
-    position: absolute;
-    top: 1300px;
-    right: 300px;
+    position: relative;
+    left: 50%;
+    top: 30%;
 }
 
 .content img {
     margin-top: 30px;
     margin-bottom: 30px;
+    margin-left: 100px;
+}
+@media (max-width: 768px) {
+    .content {
+        position: static;
+        padding: 10%;
+    }
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .accordion-container h1 {
