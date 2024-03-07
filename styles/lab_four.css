@@ -78,6 +78,28 @@ p {
     }
 }
 
+.container2 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr;
+    margin: 0;
+}
+
+.image2 img {
+    max-width: 100%;
+    max-height:100%;
+}
+
+.text {
+    font-size: 100px;
+    margin-left: 20%;
+}
+
+.text button {
+    margin-left: 20%;
+    font-size: 100px;
+}
+
 .accordion-container h1 {
     text-align: center;
     padding-top: 30px;
@@ -131,7 +153,7 @@ p {
 }
 
 .footer-container a {
-    color: #1f3884;
+    color: #fc7753;
     text-decoration: none;
     margin: 0 10px;
     margin-bottom: 10px;
